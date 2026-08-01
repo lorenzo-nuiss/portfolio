@@ -168,7 +168,7 @@ export function Hero({ onScrollToTimeline, lang = "fr", setLang }) {
                   {/* Character Image - Centered */}
                   <img
                     src={avatar3DCutout}
-                    alt="Mon Avatar Tech Lead"
+                    alt="Mon Avatar Developpeur"
                     className="relative z-10 w-full h-full object-cover object-center filter drop-shadow-[0_15px_25px_rgba(0,0,0,0.6)]"
                     referrerPolicy="no-referrer"
                   />
@@ -202,7 +202,7 @@ export function Hero({ onScrollToTimeline, lang = "fr", setLang }) {
                       {isEn ? "Specialty" : "Spécialité"}
                     </p>
                     <p className="text-xs font-bold text-neutral-800 dark:text-neutral-100 mt-0.5">
-                      Tech Lead
+                      {isEn ? "Fullstack Dev" : "Développeur Fullstack"}
                     </p>
                   </div>
                 </div>
