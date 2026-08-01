@@ -387,7 +387,7 @@ export function Projects({ lang = "fr" }) {
                     }`}
                   >
                     {/* Multi-image interactive Carousel */}
-                    <div className="relative w-full md:w-80 aspect-video rounded-2xl overflow-hidden bg-neutral-100 dark:bg-neutral-800 shrink-0 group/carousel h-fit">
+                    <div className="relative w-full md:w-80 aspect-16/10 m-auto rounded-2xl overflow-hidden bg-neutral-100 dark:bg-neutral-800 shrink-0 group/carousel">
                       <AnimatePresence mode="wait">
                         <motion.img
                           key={imgIndex}
